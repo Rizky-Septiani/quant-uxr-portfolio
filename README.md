@@ -53,12 +53,12 @@ The core objective is to establish a **data-driven UX Measurement Framework** th
    ```bash
    git clone [https://github.com/Rizky-Septiani/quant-uxr-portfolio.git](https://github.com/Rizky-Septiani/quant-uxr-portfolio.git)
    cd quant-uxr-portfolio
-   Environment Setup & Dependencies:
-2. Ensure Python 3.10+ is installed along with the required libraries:
+2. Environment Setup & Dependencies:
+Ensure Python 3.10+ is installed along with the required libraries:
 pip install numpy pandas matplotlib seaborn scipy factor_analyzer
 3. Execute the Notebook:
 Open and run all cells in ux_behavioral_metrics_complete.ipynb using Jupyter Notebook or Google Colab.
 ## 👤 Author & Contact
 - **Rizky Septiani** — Quantitative UX Researcher & Behavioral Data Analyst
-- **LinkedIn**: [Rizky Septiani]((https://www.linkedin.com/in/rizky-septiani-psy))
+- **LinkedIn**: [Rizky Septiani](https://www.linkedin.com/in/rizky-septiani-psy)
 - **GitHub**: [@Rizky-Septiani](https://github.com/Rizky-Septiani)
