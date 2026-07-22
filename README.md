@@ -1,52 +1,68 @@
-# 📊 Stage 2: Advanced UX Metrics & Psychometric Validation Pipeline
+# 📊 Quantitative UX Research Portfolio
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python)
-![Scipy](https://img.shields.io/badge/Scipy-Statistical%20Inference-green?style=flat-square)
-![Factor Analysis](https://img.shields.io/badge/Psychometrics-EFA%20%26%20CFA-orange?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
+**Rizky Septiani** — Quantitative UX Researcher | Licensed Clinical Psychologist  
+*Bridging Deep Behavioral Science, Psychometric Integrity, and Advanced Data Analytics to Drive Product Strategy.*
 
 ---
 
-## 📌 Executive Summary
-This repository contains the end-to-end quantitative research and behavioral analytics pipeline for **Stage 2: Quant UXR Mastery**. The project bridges raw user behavior logs with rigorous psychometric validation (Factor Analysis & Reliability Metrics) and C-Suite executive dashboards.
+## 👋 About Me
+I am a Licensed Clinical Psychologist who has successfully transitioned into Quantitative UX Research. My professional background spans academic, technical, and clinical domains—giving me a unique edge in understanding complex human behaviors, unconscious user processes, and emotional friction points. By marrying psychological rigor with advanced statistical computing in Python and SQL, I translate messy behavioral data into airtight, bulletproof business insights and feature prioritization models that executive leaders can confidently act upon.
 
-The core objective is to establish a **data-driven UX Measurement Framework** that evaluates product usability, user sentiment, and systemic retention drivers using statistical inference (Bootstrap 95% CI, ANOVA, and Exploratory Factor Analysis).
-
----
-
-## 🛠️ Key Architectural Pillars
-
-### 🔵 Pillar A: Behavioral Metric Ingestion & Descriptive Diagnostics
-- Processed engagement metrics, task completion rates, and error frequencies across user cohorts.
-- Integrated automated feature distribution profiling (`feature_dashboard.png`).
-
-### 🟢 Pillar B: Net Promoter Score (NPS) Relational & Inferential Analysis
-- Executed **Bootstrap Resampling (1,000 iterations)** to calculate a true 95% Confidence Interval for system-wide NPS.
-- Evaluated segment-level score variance using **One-Way ANOVA**, determining statistically significant disparities across user personas (Beginner, Intermediate, Advanced).
-
-### 🟡 Pillar C: Psychometric Validation (System Usability Scale - SUS)
-- Conducted item-level reliability diagnostics using **Cronbach’s Alpha ($\alpha$)**.
-- Benchmarked SUS scores against industry standard percentiles and grading curves (`sus_market_benchmarking.png`).
-
-### 🔴 Pillar D: Exploratory Factor Analysis (EFA) & Dimensionality Reduction
-- Validated sampling adequacy via **Kaiser-Meyer-Olkin (KMO)** test and **Bartlett’s Test of Sphericity**.
-- Extracted latent UX dimensions using Scree Plot diagnostics (`scree_plot_diagnostic.png`) and rotated factor loadings (`efa_diagnostic_dashboard.png`).
+**Core Competencies:** Python (Pandas, Statsmodels, SciPy, Seaborn) | Advanced Statistical Modeling (OLS Regression, ANOVA, Hypothesis Testing) | Psychometric Scaling (Likert, SUS) | Data Communication & Product Strategy.
 
 ---
 
-## 📈 Visual Asset Index
+## 📁 Key Projects
 
-| Asset Name | Description |
-| :--- | :--- |
-| `ux_scorecard.png` | C-Suite Executive Summary UX Scorecard |
-| `feature_dashboard.png` | Multi-panel behavioral distribution analysis |
-| `reliability_sus_diagnostic.png` | Chronbach Alpha item-rest correlation breakdown |
-| `scree_plot_diagnostic.png` | Eigenvalue extraction curve for construct validity |
-| `efa_diagnostic_dashboard.png` | Latent factor structure & item loading heatmaps |
-| `sus_market_benchmarking.png` | SUS score vs Global Industry Benchmarks |
+### 01 · KreditKu FinTech App: Predictive User Satisfaction & Feature Prioritization
+`Python` `OLS Multiple Regression` `Statistical Diagnostic Testing` `Data Visualization`
+
+An end-to-end quantitative UX evaluation of the KreditKu micro-lending mobile application ($N = 200$ respondents):
+* **Descriptive Profiling:** Segmented and cross-analyzed core behaviors between new and existing users.
+* **Statistical Diagnostics:** Audited regression assumptions including Multicollinearity (VIF checks) and Residual Normality to ensure maximum data integrity.
+* **Predictive Modeling:** Built a Multiple Linear Regression (OLS) framework to isolate the true mathematical drivers of overall user satisfaction.
+* **Key Finding:** Information clarity (`clarity_score`) emerged as the single most powerful driver of user satisfaction ($\beta = +0.321, p < 0.001$), completely outperforming physical system efficiency metrics. The final optimized model successfully accounts for **54.7% (Adjusted R-Squared)** of the total variance in user satisfaction.
+* **Strategic Recommendation:** Prioritize immediate UX simplification of terms and credit transparency over micro-level page optimization to maximize user retention.
+
+➔ [View Full Python Notebook & Diagnostics](./01_predictive_regression/)
 
 ---
 
+### 02 · Advanced UX Metrics & Psychometric Validation Pipeline
+`Python` `Exploratory Factor Analysis (EFA)` `Cronbach's Alpha` `Bootstrap Resampling` `SUS & NPS`
+
+An end-to-end quantitative research and behavioral analytics pipeline bridging raw user logs with rigorous psychometric validation and C-suite executive dashboards:
+
+* **Executive Overview:** Established a data-driven UX Measurement Framework evaluating usability, sentiment, and retention drivers via statistical inference (Bootstrap 95% CI, ANOVA, and EFA).
+* **Pillar A (Behavioral Diagnostics):** Processed engagement metrics, task completion rates, and error frequencies across user cohorts (`feature_dashboard.png`).
+* **Pillar B (NPS Inferential Analysis):** Executed Bootstrap Resampling (1,000 iterations) for 95% CI system-wide NPS and evaluated persona variance using One-Way ANOVA.
+* **Pillar C (Psychometric Validation - SUS):** Conducted item-level reliability via Cronbach’s Alpha ($\alpha$) and benchmarked SUS scores against industry percentiles (`sus_market_benchmarking.png`).
+* **Pillar D (Exploratory Factor Analysis):** Validated sampling adequacy (KMO & Bartlett's Test) and extracted latent UX dimensions via Scree Plot diagnostics (`scree_plot_diagnostic.png`, `efa_diagnostic_dashboard.png`).
+
+➔ [View Full Stage 2 Diagnostics & Notebook](./02_advanced_metrics/)
+
+---
+
+### 03 · [Stage 3 — Coming Soon]
+
+---
+
+### 04 · [Stage 4 — Coming Soon]
+
+---
+
+## 🛠️ Data Science & UX Research Tech Stack
+
+| Category | Tools & Libraries |
+|----------|-------------------|
+| **Programming Languages** | Python, SQL (PostgreSQL / BigQuery) |
+| **Statistical Computations**| `statsmodels`, `scipy.stats`, `numpy`, `scikit-learn` |
+| **Data Manipulation** | `pandas` |
+| **Data Visualization** | `matplotlib`, `seaborn` (Custom Executive Dashboards) |
+| **UX & Psychometric Metrics**| Likert Scaling, System Usability Scale (SUS), HEART Framework |
+| **Environments** | Google Colab, Jupyter Notebooks, GitHub |
+
+---
 ## 🚀 How to Run the Pipeline
 
 1. **Clone the Repository:**
@@ -57,7 +73,13 @@ The core objective is to establish a **data-driven UX Measurement Framework** th
 Ensure Python 3.10+ is installed along with the required libraries:
 pip install numpy pandas matplotlib seaborn scipy factor_analyzer
 3. Execute the Notebook:
-Open and run all cells in ux_behavioral_metrics_complete.ipynb using Jupyter Notebook or Google Colab.
+Open and run all cells in stage 1 & 2 using Jupyter Notebook or Google Colab.
+
+*This portfolio serves as a live testament to continuous learning and empirical rigor. Updated regularly.*  
+*Open for global opportunities, technical collaborations, and research discussions.*
+
+---
+
 ## 👤 Author & Contact
 - **Rizky Septiani** — Quantitative UX Researcher & Behavioral Data Analyst
 - **LinkedIn**: [Rizky Septiani](https://www.linkedin.com/in/rizky-septiani-psy)
