@@ -33,7 +33,7 @@ This repository section details an end-to-end quantitative research and behavior
 
 ## 📁 Included Assets & Deliverables
 
-* 📓 **Master Notebook:** Stage 2 Python pipeline (`.ipynb`) containing full data processing, psychometric functions, and statistical modeling.
+* 📓 **Master Notebook:** Stage 2 Python pipeline (`ux_behavioral_metrics_complete.ipynb`) containing full data processing, psychometric functions, and statistical modeling.
 * 📊 **Executive Visuals:** High-resolution diagnostic charts (`feature_dashboard.png`, `sus_market_benchmarking.png`, `scree_plot_diagnostic.png`, `efa_diagnostic_dashboard.png`).
 
 ---
