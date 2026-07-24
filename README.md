@@ -28,16 +28,12 @@ An end-to-end quantitative UX evaluation of the KreditKu micro-lending mobile ap
 
 ---
 
-### 02 · Advanced UX Metrics & Psychometric Validation Pipeline
-`Python` `Exploratory Factor Analysis (EFA)` `Cronbach's Alpha` `Bootstrap Resampling` `SUS & NPS`
+### 2. Advanced UX Metrics & Psychometric Validation Pipeline
+**Ecosystem:** TanamSaham + InvestPintar | **Tools:** `Python` `Psychometrics` `Factor Analysis (EFA)` `Survey Weighting`
 
-An end-to-end quantitative research and behavioral analytics pipeline bridging raw user logs with rigorous psychometric validation and C-suite executive dashboards:
-
-* **Executive Overview:** Established a data-driven UX Measurement Framework evaluating usability, sentiment, and retention drivers via statistical inference (Bootstrap 95% CI, ANOVA, and EFA).
-* **Pillar A (Behavioral Diagnostics):** Processed engagement metrics, task completion rates, and error frequencies across user cohorts (`feature_dashboard.png`).
-* **Pillar B (NPS Inferential Analysis):** Executed Bootstrap Resampling (1,000 iterations) for 95% CI system-wide NPS and evaluated persona variance using One-Way ANOVA.
-* **Pillar C (Psychometric Validation - SUS):** Conducted item-level reliability via Cronbach’s Alpha ($\alpha$) and benchmarked SUS scores against industry percentiles (`sus_market_benchmarking.png`).
-* **Pillar D (Exploratory Factor Analysis):** Validated sampling adequacy (KMO & Bartlett's Test) and extracted latent UX dimensions via Scree Plot diagnostics (`scree_plot_diagnostic.png`, `efa_diagnostic_dashboard.png`).
+* **Methodological Rigor:** Validated an 8-item user trust scale using Classical Test Theory (**Cronbach’s Alpha**, Item-Total Correlation) and **Exploratory Factor Analysis (EFA)** with Varimax rotation to expose latent user dimensions.
+* **Bias Mitigation & Inferential Analytics:** Applied **post-stratification survey weighting** across 500+ respondents to correct sampling bias, combined with **Bootstrap Resampling (1,000 iterations)** for NPS confidence intervals ($95\%$ CI) and **Chi-Square/Cramer’s V** tests.
+* **Executive Impact:** Delivered standard metrics (NPS, CSAT, CES, SUS) mapped against global benchmarks, item-level usability diagnostics, and a C-suite ready 2x2 Feature Priority Matrix.
 
 ➔ [View Full Stage 2 Diagnostics & Notebook](./02_advanced_metrics/)
 
