@@ -1,41 +1,52 @@
 # 02 · Advanced UX Metrics & Psychometric Validation Pipeline
 
-`Python` `Exploratory Factor Analysis (EFA)` `Cronbach's Alpha` `Bootstrap Resampling` `SUS & NPS`
+**Product Ecosystem:** TanamSaham + InvestPintar  
+`Python` `Survey Engineering` `Psychometrics` `Scale Validation` `Statistical Inference` `Exploratory Factor Analysis`
 
 ---
 
 ## 📌 Executive Overview
-This repository section details an end-to-end quantitative research and behavioral analytics pipeline bridging raw telemetry/user logs with rigorous psychometric validation. Designed to elevate standard UXR data into executive-level product strategy, this pipeline evaluates usability, sentiment, and core retention drivers through rigorous statistical inference (**Bootstrap 95% CI**, **One-Way ANOVA**, and **Exploratory Factor Analysis**).
+This repository section details an end-to-end quantitative research and behavioral analytics pipeline bridging raw survey telemetry with rigorous psychometric validation. Designed to elevate standard UXR data into executive-level product strategy, this pipeline evaluates usability, sentiment, and core retention drivers across 500+ respondents using advanced statistical inference (**Bootstrap 95% CI**, **Cronbach’s Alpha**, **Post-Stratification Weighting**, and **Exploratory Factor Analysis**).
 
 ---
 
-## 🎯 Analytical Pillars & Methodology
+## 🎯 Strategic Research Objectives & Methodology
 
-### Pillar A: Behavioral Diagnostics & User Engagement
-* **Methodology:** Aggregated task completion rates, error frequencies, and engagement duration across distinct user cohorts.
-* **Key Visual:** `feature_dashboard.png` — Summarizes user interaction patterns and task-level efficiency metrics.
+### 1. Unified UX Metric Baselines & De-biasing
+Constructed a unified quantitative tracking framework using standard metrics (**NPS**, **CSAT**, **CES**, and **SUS**) mapped against target enterprise benchmarks. Audited survey instruments for cognitive biases and implemented post-stratification survey weighting to adjust for segment over/under-representation.
 
-### Pillar B: Inferential NPS & Persona Analysis
-* **Methodology:** Executed **Bootstrap Resampling (1,000 iterations)** to calculate robust 95% Confidence Intervals for system-wide Net Promoter Score (NPS), mitigating small-sample variance. Evaluated NPS variance across user personas using **One-Way ANOVA**.
-* **Key Finding:** Identified statistically significant variance in promoter rates across cohorts, pinpointing specific power-user segments driving organic growth.
+### 2. Psychometric Scale Validation
+Executed rigorous structural validation on an 8-item Trust Scale using classical test theory (**Cronbach's Alpha**, **Item-Total Correlation**) and **Exploratory Factor Analysis (EFA)** with Varimax orthogonal rotation to expose latent user trust dimensions.
 
-### Pillar C: Psychometric Scale Validation (System Usability Scale - SUS)
-* **Methodology:** Validated internal consistency and item-level reliability via **Cronbach’s Alpha ($\alpha$)**. Benchmarked calculated SUS composite scores against normalized industry percentiles.
-* **Key Visual:** `sus_market_benchmarking.png` — Visualizes calculated SUS score against global usability standards and grade curves.
+### 3. Inferential Persona & Segment Analytics
+Applied **Bootstrap Resampling (1,000 iterations)** to calculate robust 95% Confidence Intervals for system-wide NPS, mitigating small-sample variance. Deployed **Chi-Square Tests of Independence** and **Cramer's V** to statistically isolate satisfaction deltas across demographic cohorts.
 
-### Pillar D: Latent Structure Extraction (Exploratory Factor Analysis - EFA)
-* **Methodology:** Assessed sampling adequacy using **Kaiser-Meyer-Olkin (KMO > 0.7)** and **Bartlett’s Test of Sphericity ($p < 0.05$)**. Applied Principal Axis Factoring to extract underlying construct dimensions from multivariate Likert data.
-* **Key Visuals:** 
-  * `scree_plot_diagnostic.png` — Visualizes eigenvalues and variance explained for optimal factor retention.
-  * `efa_diagnostic_dashboard.png` — Comprehensive dashboard illustrating factor loadings and construct cross-loadings.
+### 4. Executive Strategy & Prioritization
+Synthesized diagnostic survey data into a C-suite ready **2x2 Feature Priority Matrix** and an **Executive UX Scorecard** to translate complex psychometric outputs into actionable product roadmap decisions.
 
 ---
 
-## 📁 Included Assets & Deliverables
+## 📊 Key Performance Indicator (KPI) Summary
 
-* 📓 **Master Notebook:** Stage 2 Python pipeline (`ux_behavioral_metrics_complete.ipynb`) containing full data processing, psychometric functions, and statistical modeling.
-* 📊 **Executive Visuals:** High-resolution diagnostic charts (`feature_dashboard.png`, `sus_market_benchmarking.png`, `scree_plot_diagnostic.png`, `efa_diagnostic_dashboard.png`).
+| Metric Framework | Empirical Value | Target Benchmark | Status / Health Alert |
+| :--- | :---: | :---: | :---: |
+| **Net Promoter Score (NPS)** | *Calculated via Bootstrap* | $\ge +30.0$ | 🟢 On Track |
+| **Customer Satisfaction (CSAT %)** | *Weighted Aggregate* | $\ge 75.0\%$ | 🟢 On Track |
+| **System Usability Scale (SUS)** | *Normalized Score* | $\ge 68.0$ | 🟢 On Track |
+| **Trust Scale Reliability ($\alpha$)** | $> 0.80$ | $> 0.80$ | ✅ Validated |
 
 ---
 
+## 📁 Repository Architecture & Visual Artifacts
+
+* 📓 `ux_behavioral_metrics_complete.ipynb` — Cumulative production master notebook containing end-to-end code execution, weighting algorithms, and EFA modeling.
+* 🖼️ `ux_scorecard.png` — Consolidated, C-suite ready executive dashboard summary with dynamic health status alerts.
+* 🖼️ `sus_market_benchmarking.png` — Strategic visualization mapping product usability against international industry percentiles and grade curves.
+* 🖼️ `sus_item_level_diagnostics.png` — Granular item-level SUS breakdown identifying specific usability friction points across positive vs. negative prompt items.
+* 🖼️ `reliability_sus_diagnostic.png` — Psychometric visualization summarizing scale item-correlations, discrimination indices, and internal consistency ($\alpha$).
+* 🖼️ `scree_plot_diagnostic.png` — Eigenvalue scree plot diagnostic used to mathematically determine optimal factor retention for EFA.
+* 🖼️ `efa_diagnostic_dashboard.png` — Factor structure matrix charting latent construct dimensions and cross-loadings of user trust.
+* 🖼️ `feature_dashboard.png` — Quantitative prioritization matrix charting user satisfaction vs. impact across key product features.
+
+---
 *Part of the Quantitative UX Research Portfolio.*
