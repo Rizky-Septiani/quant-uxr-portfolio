@@ -1,12 +1,11 @@
-# 📊 Quantitative UX Research Portfolio
+# 📊 Quantitative UX Research & Behavioral Data Science Portfolio
 
-**Rizky Septiani** — Quantitative UX Researcher | Licensed Clinical Psychologist  
-*Bridging Deep Behavioral Science, Psychometric Integrity, and Advanced Data Analytics to Drive Product Strategy.*
+*Bridging Deep Behavioral Science, Psychometric Integrity, and Advanced SQL/Python Analytics to Drive Product Strategy.*
 
 ---
 
 ## 👋 About Me
-I am a Licensed Clinical Psychologist who has successfully transitioned into Quantitative UX Research. My professional background spans academic, technical, and clinical domains—giving me a unique edge in understanding complex human behaviors, unconscious user processes, and emotional friction points. By marrying psychological rigor with advanced statistical computing in Python and SQL, I translate messy behavioral data into airtight, bulletproof business insights and feature prioritization models that executive leaders can confidently act upon.
+I am a Licensed Clinical Psychologist who has successfully transitioned into Quantitative UX Research & Behavioral Data Science. My professional background spans academic, technical, and clinical domains—giving me a unique edge in understanding complex human behaviors, unconscious user processes, and emotional friction points. By marrying psychological rigor with advanced statistical computing in Python and SQL, I translate messy behavioral data into airtight, bulletproof business insights and feature prioritization models that executive leaders can confidently act upon.
 
 **Core Competencies:** Python (Pandas, Statsmodels, SciPy, Seaborn) | Advanced Statistical Modeling (OLS Regression, ANOVA, Hypothesis Testing) | Psychometric Scaling (Likert, SUS) | Data Communication & Product Strategy.
 
@@ -28,7 +27,7 @@ An end-to-end quantitative UX evaluation of the KreditKu micro-lending mobile ap
 
 ---
 
-### 2. Advanced UX Metrics & Psychometric Validation Pipeline
+### 02. Advanced UX Metrics & Psychometric Validation Pipeline
 **Ecosystem:** TanamSaham + InvestPintar | **Tools:** `Python` `Psychometrics` `Factor Analysis (EFA)` `Survey Weighting`
 
 * **Methodological Rigor:** Validated an 8-item user trust scale using Classical Test Theory (**Cronbach’s Alpha**, Item-Total Correlation) and **Exploratory Factor Analysis (EFA)** with Varimax rotation to expose latent user dimensions.
@@ -39,7 +38,17 @@ An end-to-end quantitative UX evaluation of the KreditKu micro-lending mobile ap
 
 ---
 
-### 03 · [Stage 3 — Coming Soon]
+### 03 · GajiKu Q1 2024: End-to-End Behavioral Analytics & Growth Report
+
+Tools: SQL (SQLite) | Python (Pandas, Matplotlib) | Looker Studio Pipeline
+
+Behavioral Diagnostics: Constructed multi-step transactional conversion funnels, D1/D7/D30 cohort retention matrices, and session exit event taxonomy (isolating `help_open` as a major dead-end friction point).
+
+Advanced SQL Engineering: Developed ANSI SQL window function trendlines (`LAG()`, 30-day moving averages, cumulative revenue aggregation) and designed an enterprise-grade multi-layer CTE composite User Health Scoring engine (0–100 scale).
+
+Executive Impact & Data Pipeline: Uncovered a 55% drop-off rate between app open and transfer initiation, validated higher long-term retention among Premium subscribers, and built automated CSV data pipelines for executive Looker Studio dashboarding.
+
+➔ [View Full Stage 3 SQL Analytics Notebook & BI Pipeline](./03_behavioral_sql)
 
 ---
 
@@ -51,11 +60,12 @@ An end-to-end quantitative UX evaluation of the KreditKu micro-lending mobile ap
 
 | Category | Tools & Libraries |
 |----------|-------------------|
-| **Programming Languages** | Python, SQL (PostgreSQL / BigQuery) |
-| **Statistical Computations**| `statsmodels`, `scipy.stats`, `numpy`, `scikit-learn` |
+| **Programming Languages** | Python, SQL (SQLite, ANSI SQL, PostgreSQL / BigQuery) |
+| **Statistical Computations** | `statsmodels`, `scipy.stats`, `numpy`, `scikit-learn` |
 | **Data Manipulation** | `pandas` |
-| **Data Visualization** | `matplotlib`, `seaborn` (Custom Executive Dashboards) |
-| **UX & Psychometric Metrics**| Likert Scaling, System Usability Scale (SUS), HEART Framework |
+| **Data Visualization & BI** | `matplotlib`, `seaborn` (Custom Executive Dashboards), Google Looker Studio |
+| **Advanced SQL Analytics** | Window Functions (`LAG()`, Moving Averages, Running Totals), Multi-Layer CTEs, Funnel & Cohort Analytics |
+| **UX & Psychometric Metrics** | Likert Scaling, System Usability Scale (SUS), HEART Framework, Exploratory Factor Analysis (EFA) |
 | **Environments** | Google Colab, Jupyter Notebooks, GitHub |
 
 ---
@@ -77,6 +87,7 @@ Open and run all cells in stage 1 & 2 using Jupyter Notebook or Google Colab.
 ---
 
 ## 👤 Author & Contact
-- **Rizky Septiani** — Quantitative UX Researcher & Behavioral Data Analyst
+- **Rizky Septiani** — Quantitative UX Researcher | Behavioral Data Scientist | Product Analytics Specialist
+- 📧 **Email:** [rizky.septiani91@gmail.com]
 - **LinkedIn**: [Rizky Septiani](https://www.linkedin.com/in/rizky-septiani-psy)
 - **GitHub**: [@Rizky-Septiani](https://github.com/Rizky-Septiani)
