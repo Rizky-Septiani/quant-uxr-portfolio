@@ -89,5 +89,5 @@ Open and run all cells in stage 1 & 2 using Jupyter Notebook or Google Colab.
 ## 👤 Author & Contact
 - **Rizky Septiani** — Quantitative UX Researcher | Behavioral Data Scientist | Product Analytics Specialist
 - 📧 **Email:** [rizky.septiani91@gmail.com]
-- **LinkedIn**: [Rizky Septiani](https://www.linkedin.com/in/rizky-septiani-psy)
-- **GitHub**: [@Rizky-Septiani](https://github.com/Rizky-Septiani)
+- 💼 **LinkedIn**: [Rizky Septiani](https://www.linkedin.com/in/rizky-septiani-psy)
+- 🌐 **GitHub**: [@Rizky-Septiani](https://github.com/Rizky-Septiani)
