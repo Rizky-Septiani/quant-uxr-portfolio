@@ -1,0 +1,25 @@
+plan,city,channel,user_count
+free,Bandung,Organic,25
+free,Bandung,Paid Ad,27
+free,Bandung,Referral,45
+free,Jakarta,Organic,76
+free,Jakarta,Paid Ad,44
+free,Jakarta,Referral,81
+free,Medan,Organic,11
+free,Medan,Paid Ad,8
+free,Medan,Referral,23
+free,Surabaya,Organic,31
+free,Surabaya,Paid Ad,28
+free,Surabaya,Referral,35
+premium,Bandung,Organic,12
+premium,Bandung,Paid Ad,9
+premium,Bandung,Referral,13
+premium,Jakarta,Organic,23
+premium,Jakarta,Paid Ad,18
+premium,Jakarta,Referral,36
+premium,Medan,Organic,8
+premium,Medan,Paid Ad,4
+premium,Medan,Referral,11
+premium,Surabaya,Organic,9
+premium,Surabaya,Paid Ad,7
+premium,Surabaya,Referral,16

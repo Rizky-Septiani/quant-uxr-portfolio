@@ -1,0 +1,11 @@
+event_name,total_events,unique_users
+app_open,7712,600
+view_dashboard,5965,600
+view_slip,4911,600
+download_slip,3870,599
+transfer_init,3446,597
+transfer_success,2797,594
+setting_open,2456,593
+invite_friend,1431,536
+upgrade_click,1381,531
+help_open,1031,497
